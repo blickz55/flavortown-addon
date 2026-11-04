@@ -1,0 +1,13 @@
+name: Test
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: npm install --no-audit --no-fund
+        working-directory: test
+      - run: npm test
+        working-directory: test

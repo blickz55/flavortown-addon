@@ -1,0 +1,4 @@
+package-as: FlavorTown
+ignore:
+  - test
+  - .github

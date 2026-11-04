@@ -1,0 +1,10 @@
+## Interface: 16001
+## Title: Flavor Town
+## Notes: Records your dings, Legacy Challenges, epic loot and boss kills for flavortown.beer. Nothing leaves your PC until you upload it.
+## Version: 0.1.0
+## Author: Flavor Town
+## SavedVariables: FlavorTownDB
+## X-Website: https://flavortown.beer
+## X-License: MIT
+
+FlavorTown.lua

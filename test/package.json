@@ -1,0 +1,11 @@
+{
+  "name": "flavortown-addon-test",
+  "private": true,
+  "description": "Runs FlavorTown.lua offline under a stand-in WoW API.",
+  "scripts": {
+    "test": "node run.cjs ../FlavorTown.lua"
+  },
+  "devDependencies": {
+    "fengari": "^0.1.4"
+  }
+}
